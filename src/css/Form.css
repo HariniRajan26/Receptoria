@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+
+
+/* .styling{
+    
+    border-radius: 20px;
+    align-items: center;
+    width: 45%;
+    font-family: Courgette;
+} */
+/* .container{
+  text-align: center;
+} */
+/* .btn{
+    background-color: rgb(226, 221, 221);
+} */
+
+.btn:hover{
+transform: scale(0.9);
+}
+

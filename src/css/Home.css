@@ -1,0 +1,43 @@
+/* Home.css */
+.container {
+  margin-top: 40px;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  background-color: #b51649;
+  color: #333;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 10px;
+  text-align: center;
+}
+
+.table thead th {
+  background-color: #f8f9fa;
+  color: #333;
+  font-weight: bold;
+  border-bottom: 1px solid #010101;
+}
+
+.table tbody td {
+  border-bottom: 1px solid #ddd;
+}
+
+.table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.table th:first-child,
+.table td:first-child {
+  text-align: left;
+}
+
+.table-header {
+  background-color: #e9ecef;
+  font-weight: bold;
+}

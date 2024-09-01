@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+
+.style{
+    background-color: transparent;
+    background-image: url('../Components/background.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    height: 748px;
+    align-items: center;
+}
+
+.ExistUser h5{
+    margin-top: 60px;
+}
+
+.styling{
+    background-color: rgb(158, 155, 155, 0.6);
+    font-size: medium;
+    border-radius: 20px;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 270px;
+    /* margin: 150px;
+    padding: 20px;
+    /* height: 400px; */
+    width: 45%; 
+    font-family: Courgette;
+}
+
+/* .btn{
+    background-color: rgb(226, 221, 221);
+} */
+
+.btn:hover{
+transform: scale(0.9);
+}
+

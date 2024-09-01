@@ -1,0 +1,73 @@
+.recipe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 33.33%;
+  margin-bottom: 30px;
+  text-decoration: none;
+}
+
+/* .recipe-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+} */
+
+.recipe-image:hover {
+  transform: scale(1.05);
+}
+
+/* @media (max-width: 768px) {
+  .recipe {
+    width: 50%;
+  }
+}
+
+@media (max-width: 480px) {
+  .recipe {
+    width: 100%;
+  }
+} */
+.recipe h3 {
+  /* font-size: 18px; */
+  margin-top: 50px;
+  text-decoration: none;
+}
+
+.recipe h6 {
+  font-size: 18px;
+  margin-top: 20px;
+  color: rgb(141, 93, 129);
+  background-blend-mode: hue;
+  text-decoration: none;
+}
+
+.recipe li {
+  font-size: 18px;
+  background-blend-mode: hue;
+  text-decoration: none;
+  color: rgb(97, 63, 128);
+}
+
+.recipe h5 {
+  font-size: 14px;
+  text-decoration: none;
+  color: rgb(121, 115, 47);
+  margin-bottom: 30px;
+}
+
+.recipe-image {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+  transform: scale(1);
+  transition: transform 0.3s ease;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+

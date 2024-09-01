@@ -1,0 +1,42 @@
+/* Recipe.css */
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+.search-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  
+  .search-button {
+    width: 100px; 
+    height: 100px;
+    text-align: center;
+    border-radius: 12px;
+    /* padding: 8px 16px; */
+    background-color: #542d65;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    font-family: Pacifico;
+  }
+  
+  .search-button:hover {
+    background-color: rgba(142, 76, 175, 0.721);
+    transform:scale(0.9);
+  }
+  
+.recipes{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 50px;
+  font-family: Pacifico;
+}
+
+.color{
+  background-color: rgb(174, 173, 173);
+}

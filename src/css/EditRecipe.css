@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+
+
+/* .styling{
+    
+    border-radius: 20px;
+    align-items: center;
+    width: 45%;
+    font-family: Courgette;
+} */
+.btn:hover{
+transform: scale(0.9);
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .form-label {
+    flex: 0 0 150px;
+    margin-right: 1rem;
+  }
+  
+  .form-label::after {
+    content: ":";
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    flex: 1;
+    padding: 10px;
+    border-radius: 8px;
+    border-color: white;
+  }
+
+.but
+{
+    padding-right: 20px;
+}

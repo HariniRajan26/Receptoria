@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+.BackGround {
+  /* font-family: cursive; */
+  display: flex;
+  align-items: 'left';
+    justify-content: flex-start;
+     margin-left: 0; 
+    height: 100vh;
+    color: #424242;
+    padding-top: 70px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  letter-spacing: 2px;
+  font-family: 'Pacifico';
+  
+}
+.BackGround h1 {
+  /* font-family: cursive; */
+  font-size: 100px;
+  color: rgb(77, 73, 73);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 50px;
+}
+  .BackGround a {
+    margin-top: 30px;
+    font-size: 40px;
+    color: #302f30;
+    text-decoration: none; /* Optional: Remove underline */
+  }
+  
+  .BackGround a:hover {
+    color: #c85454; /* Optional: Change color on hover */
+  }
+  
